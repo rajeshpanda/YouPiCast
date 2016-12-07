@@ -1,5 +1,5 @@
 # YouPiCast
-Created Chromecast alike with Raspberry Pi 3
+Created Chromecast alternative with Raspberry Pi 3
 
 # Please check the following links for complete documentation.
 
