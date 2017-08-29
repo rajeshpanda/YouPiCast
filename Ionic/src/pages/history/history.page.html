@@ -1,0 +1,29 @@
+<ion-header>
+    <ion-navbar>
+        <ion-grid>
+            <ion-row>
+                <ion-col col-10>
+                    <h4 style="color:white">History</h4>
+                </ion-col>
+                <ion-col col-2>
+                    <button ion-button side="right" (click)="deleteAllHistory()" style="float:right">
+                    <ion-icon style="font-size: 20px" name='trash'></ion-icon>
+                </button>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-list style="padding-left: 0.1em">
+        <ion-item ion-item type='push' *ngFor="let c of videos; let idx = index">
+            <ion-icon *ngIf="c.IsPlayed == 1" name="happy" style="color:green !important; font-size: 22px;"></ion-icon>
+            <ion-icon *ngIf="c.IsPlayed == 0" name="sad" style="color:red !important; font-size: 22px"></ion-icon>
+            &nbsp; {{c.VideoTitle}} <button ion-button style="float:right" (click)="play(c, idx)">PLAY</button>
+        </ion-item>
+    </ion-list>
+</ion-content>
+<ion-footer>
+    <button style="height:75px" ion-button full (click)="closeApp()">TAP to enable Youtube share</button>
+</ion-footer>

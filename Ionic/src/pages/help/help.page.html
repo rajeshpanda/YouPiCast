@@ -1,0 +1,33 @@
+<ion-header>
+    <ion-navbar>
+        <ion-grid>
+            <ion-row>
+                <ion-col col-10>
+                    <h4 style="color:white">Help</h4>
+                </ion-col>
+            </ion-row>
+        </ion-grid>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding color="primary">
+    This application aims at connecting your local <strong>Raspberry Pi</strong> and <strong>Youtube</strong> application on Android phone.
+    <br><br> Let's cover some important sections -
+    <br><br>
+    <strong>IP Configuration</strong>: Make sure you obtain the IP and port of your Raspberry Pi. By default, the IP is set
+    to 192.168.0.115:5000. You can set a stable IP for your Pi by changing the DHCP settings on your network router. Click
+    'SAVE' to persist your changes.
+    <br><br>
+    <strong>History</strong>: Lets you check the videos you casted onto Pi from Youtube. You can request to playback the videos
+    or delete them.
+    <br><br>
+    <strong>Stop YOUPICAST</strong>: This option is meant to kill the video running on Pi.
+    <br><br>
+    <strong>Youtube Share</strong>: Make sure you have exited this application before you try casting from youtube. Hit the
+    'TAP TO ENABLE YOUTUBE SHARE' to exit it. Once in youtube, hit share and look for 'YOUPICAST' in list of applications.
+    <br><br> For more info, check my <a href="http://blog.rajeshpanda.in/">blog</a>.
+    <br><br> Happy Casting.
+</ion-content>
+<ion-footer>
+    <button style="height:75px" ion-button full (click)="closeApp()">TAP to enable Youtube share</button>
+</ion-footer>

@@ -1,0 +1,20 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>
+            IP Configuration
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-list>
+        <ion-item>
+            <ion-label floating>Raspberry Pi's (IP:PORT) </ion-label>
+            <ion-input [(ngModel)]="raspberryIp"></ion-input>
+        </ion-item>
+    </ion-list>
+    <button ion-button style="float:right" (click)="saveValues()">Save</button>
+</ion-content>
+<ion-footer>
+    <button style="height:75px" ion-button full (click)="closeApp()">TAP to enable Youtube share</button>
+</ion-footer>

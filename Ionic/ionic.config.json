@@ -1,0 +1,8 @@
+{
+  "name": "youpicast",
+  "app_id": "youpicast",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

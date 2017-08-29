@@ -1,0 +1,34 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>
+            YOUPICAST
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-list>
+        <button ion-item type='push' (click)="goToIpPage()">
+            <ion-icon name="wifi" style="color:cornflowerblue !important; font-size: 22px"></ion-icon>
+            &nbsp; IP Configuration
+        </button>
+        <br>
+        <button ion-item type='push' (click)="goToHistoryPage()">
+             <ion-icon name="archive" style="color:mediumseagreen !important;font-size: 22px"></ion-icon>
+            &nbsp; History
+        </button>
+        <br>
+        <button ion-item type='push' (click)="killOmxPlayer()">
+             <ion-icon name="hand" style="color:red !important;font-size: 22px"></ion-icon>
+            &nbsp; Stop YOUPICAST
+        </button>
+        <br>
+        <button ion-item type='push' (click)="goToHelpPage()">
+             <ion-icon name="help-circle" style="color:goldenrod !important;font-size: 22px"></ion-icon>
+            &nbsp; Help
+        </button>
+    </ion-list>
+</ion-content>
+<ion-footer>
+    <button style="height:75px" ion-button full (click)="closeApp()">TAP to enable Youtube share</button>
+</ion-footer>
