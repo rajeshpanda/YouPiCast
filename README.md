@@ -9,5 +9,13 @@ http://blog.rajeshpanda.in/2016/12/you-pi-cast.html
 Part-2
 http://blog.rajeshpanda.in/2016/12/you-pi-cast-2.html
 
+Part-3
+http://blog.rajeshpanda.in/2016/12/you-pi-cast-3.html
+
 # Demo Link
+
+Web demo
 https://www.youtube.com/watch?v=C4Ze1R4GuHo
+
+Android demo
+https://www.youtube.com/watch?v=BxW3ThCUUkg
