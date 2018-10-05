@@ -4,13 +4,13 @@ Created Chromecast alternative with Raspberry Pi 3
 # Please check the following links for complete documentation.
 
 Part-1
-http://blog.rajeshpanda.in/2016/12/you-pi-cast.html
+http://tech.rajeshpanda.in/2016/12/you-pi-cast.html
 
 Part-2
-http://blog.rajeshpanda.in/2016/12/you-pi-cast-2.html
+http://tech.rajeshpanda.in/2016/12/you-pi-cast-2.html
 
 Part-3
-http://blog.rajeshpanda.in/2016/12/you-pi-cast-3.html
+http://tech.rajeshpanda.in/2016/12/you-pi-cast-3.html
 
 # Demo Link
 
