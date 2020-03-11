@@ -14,8 +14,5 @@ http://blog.unmashed.tech/2016/12/you-pi-cast-3.html
 
 # Demo Link
 
-Web demo
-https://www.youtube.com/watch?v=C4Ze1R4GuHo
-
 Android demo
 https://www.youtube.com/watch?v=BxW3ThCUUkg
